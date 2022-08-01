@@ -1,0 +1,42 @@
+@use '../../styles/vars';
+
+.fondoPopular{
+    background-image: url(../../assets/burger-image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    height: 388px;
+}
+.fondoDouble{
+    background-image: url(../../assets/burger-image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    height: 182px;
+}
+.fondoChili{
+    background-image: url(../../assets/burger-image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    height: 182px;
+}
+.try {
+    color: var(--color-white);
+    font-size: var(--size-subtextos);
+}
+.more {
+    color: var(--color-white);
+    font-size: var(--size-textos);
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .fondoPopular{ height: 270px;}
+    .fondoChili {height: 130px;}
+    .fondoDouble {height: 130px;}
+}

@@ -1,0 +1,7 @@
+@use '../../styles/vars';
+
+#formulario .btn-find{
+    color: var(--color-white);
+    background: var(--color-button);
+    font-size: var(--size-button3);
+}

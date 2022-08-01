@@ -1,0 +1,19 @@
+@use '../../styles/vars';
+
+#contactUs{
+    background-image: url(../../assets/back-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    height: 90vh;
+    margin-top: 100px;
+}
+.tituloReser {
+    color: var(--color-brown);
+    font-size: var(--size-subtitulos2);
+}
+.tituloBook {
+    color: var(--color-brown);
+    font-size: var(--size-intermedio);
+}

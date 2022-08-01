@@ -1,0 +1,12 @@
+@use '../../styles/vars';
+
+
+.orders .btn-order{
+    color: var(--color-white);
+    background: var(--color-button);
+    font-size: var(--size-button2);
+    text-decoration: none;
+}
+.orders .btn-order:hover{
+    color: black;
+}

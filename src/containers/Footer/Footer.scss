@@ -1,0 +1,20 @@
+@use '../../styles/vars';
+
+#footer {
+    height: auto;
+    background-image: url(../../assets/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: var(--color-white);
+    margin-top: 50px;
+}
+.icon-maps {
+    width: 30px;
+    height: auto;
+}
+.logoFooter img {max-width: 100%;}
+.socialItems{width: auto;}
+.social-item{color: var(--color-white);}
+.social-item:hover{color: var(--color-brown);}
+

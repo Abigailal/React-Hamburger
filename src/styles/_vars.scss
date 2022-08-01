@@ -1,0 +1,38 @@
+:root {
+    --font-bebas: 'Bebas Neue', cursive;
+    --font-alfa: 'Alfa Slab One', cursive;
+    --color-brown:#42200b;
+    --color-shadow:#fce9bc;
+    --color-button:#df1c1c;
+    --color-always:#f8c136;
+    --color-white:white;
+    --size-titulos: 8em;
+    --size-titulos2:3em;
+    --size-subtitulos: 6em;
+    --size-subtitulos2:3em;
+    --size-intermedio:3.3em;
+    --size-textos: 2.5em;
+    --size-subtextos: 1.3em;
+    --size-button1:1.5em;
+    --size-button2:1.2em;
+    --size-button3:1.1em;
+}
+
+@media screen and (max-width: 950px) {
+    :root {
+        --size-titulos: 5em;
+        --size-subtitulos: 4em;
+        --size-textos: 2.5em;
+        --size-subtextos:1.3em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    :root {
+        --size-titulos: 2.5em;
+        --size-subtitulos: 2em;
+        --size-textos:1.2em;
+        --size-subtextos:1em;
+        --size-button2: 1em;
+    }
+}

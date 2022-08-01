@@ -1,0 +1,10 @@
+@use '../../styles/vars';
+
+#chooseIt .btn-always{
+    color: var(--color-brown);
+    background: var(--color-always);
+    font-size: var(--size-button1);
+}
+#chooseIt .btn-always:hover{
+    color: var(--color-white);
+}

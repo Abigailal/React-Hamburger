@@ -1,0 +1,19 @@
+@use '../../styles/vars';
+
+#chooseIt img{max-width: 100%;}
+.tituloChoose{
+    color: var(--color-brown);
+    font-size: var(--size-subtitulos);
+}
+.parrafoChoose{
+    color: var(--color-brown);
+    font-size: var(--size-subtextos);
+}
+.tituloLorem {
+    color: var(--color-brown);
+    font-size: var(--size-subtitulos2);
+}
+.parrafoLorem {
+    color: var(--color-brown);
+    font-size: var(--size-subtextos);
+}
